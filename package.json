@@ -1,9 +1,10 @@
 {
     "name": "vscode-squirrel-lang",
-    "displayName": "Squirrel Language Highlighing",
+    "displayName": "Squirrel Language Highlighting",
     "description": "Squirrel Language Highlighting",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "monkeygroover",
+    "icon": "./simple_nut.png",
     "engines": {
         "vscode": "^1.16.0"
     },

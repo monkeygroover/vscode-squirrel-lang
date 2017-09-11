@@ -4,7 +4,7 @@
     "description": "Squirrel Language Highlighting",
     "version": "0.0.2",
     "publisher": "monkeygroover",
-    "icon": "./simple_nut.png",
+    "icon": "simple_nut.png",
     "engines": {
         "vscode": "^1.16.0"
     },

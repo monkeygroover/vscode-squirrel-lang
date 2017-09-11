@@ -1,0 +1,26 @@
+{
+    "name": "vscode-squirrel-lang",
+    "displayName": "Squirrel Language Highlighing",
+    "description": "Squirrel Language Highlighting",
+    "version": "0.0.1",
+    "publisher": "monkeygroover",
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "squirrel",
+            "aliases": ["Squirrel", "squirrel"],
+            "extensions": ["nut"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "squirrel",
+            "scopeName": "source.nut",
+            "path": "./syntaxes/Squirrel.tmLanguage"
+        }]
+    }
+}

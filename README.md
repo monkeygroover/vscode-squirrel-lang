@@ -4,6 +4,6 @@ Syntax highlighing support for squirrel language http://www.squirrel-lang.org/
 
 ## Credits
 
-the .tmLanguage grammar file was gathered from https://github.com/robmerrell/squirrel-tmbundle
+.tmLanguage grammar file based on https://github.com/robmerrell/squirrel-tmbundle
 
 icon from squirrel-lang.org

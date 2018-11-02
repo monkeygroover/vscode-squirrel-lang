@@ -15,3 +15,7 @@
 0.0.7 - Match constants exactly
 
 0.0.8 - Fix stray quote chars
+
+0.0.9 - Switch to json for the grammar file
+
+

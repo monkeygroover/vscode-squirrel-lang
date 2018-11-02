@@ -13,3 +13,5 @@
 0.0.6 - Adds highlighting for the set of Electric imp api global objects and constants.
 
 0.0.7 - Match constants exactly
+
+0.0.8 - Fix stray quote chars

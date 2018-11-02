@@ -112,7 +112,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(local|class|function|constructor|enum)\b</string>
+			<string>\b(local|class|function|enum)\b</string>
 			<key>name</key>
 			<string>storage.type.squirrel</string>
 		</dict>

@@ -183,6 +183,10 @@
       "name": "variable.language.electricimp.http"
     },
     {
+      "match": "\\b(imp.net.configurewps|imp.net.counters|imp.net.getwifihints|imp.net.info|imp.net.setwifihints)\\b",
+      "name": "variable.language.electricimp.imp.net"
+    },
+    {
       "match": "\\b(imp.sleep|imp.deepsleepfor|imp.deepsleepuntil|imp.wakeup|imp.onidle|imp.setpowersave|imp.getpowersave|imp.clearconfiguration|imp.setwificonfiguration|imp.setenroltokens|imp.getcountry|imp.getmemoryfree|imp.enableblinkup|imp.environment|imp.getsoftwareversion|imp.getbootromversion|imp.cancelwakeup|imp.setsendbuffersize|imp.scanwifinetworks|imp.setproxy|imp.setstaticnetworkconfiguration|imp.setpoweren|imp.getpoweren|imp.setcountry|imp.setnvramimage|imp.setrescuepin|imp.info|imp.getuserconfiguration|imp.setuserconfiguration|imp.onunhandledexception|imp.reset)\\b",
       "name": "variable.language.electricimp.imp"
     },

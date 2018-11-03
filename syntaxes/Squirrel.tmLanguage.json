@@ -99,20 +99,24 @@
       "name": "keyword.operator.squirrel"
     },
     {
-      "match": "\\b(regexp|regexp2|format|strip|lstrip|rstrip|split)\\b",
+      "match": "\\b(math.abs|math.acos|math.asin|math.atan|math.atan2|math.ceil|math.cos|math.exp|math.fabs|math.floor|math.log|math.log10|math.pow|math.rand|math.sin|math.sqrt|math.tan)\\b",
+      "name": "variable.language.squirrel.standard.math"
+    },
+    {
+      "match": "\\b(format|strip|lstrip|rstrip|split)\\b",
       "name": "variable.language.squirrel.string"
     },
     {
-      "match": "\\b(blob|castf2i|casti2f|swap2|swap4|swap2)\\b",
-      "name": "variable.language.squirrel.blob"
-    },
-    {
-      "match": "\\b(time|date)\\b",
+      "match": "\\b(array|blob|math|regexp|regexp2)\\b",
       "name": "variable.language.squirrel.standard"
     },
     {
-      "match": "\\b(array|assert|callee|collectgarbage|getroottable|type)\\b",
+      "match": "\\b(callee|collectgarbage|type)\\b",
       "name": "variable.language.squirrel.standard.base"
+    },
+    {
+      "match": "\\b(assert|castf2i|casti2f|date|getroottable|swap2|swap4|swapfloat|time)\\b",
+      "name": "variable.language.squirrel.system"
     },
     {
       "match": "\\b(agent.on|agent.send)\\b",

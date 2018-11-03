@@ -19,3 +19,5 @@
 0.0.9  - Switch to json for the grammar file
 
 0.0.10 - Expand Electric Imp API
+
+0.0.11 - Tidy up standard library functions

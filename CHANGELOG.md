@@ -23,3 +23,5 @@
 0.0.11 - Tidy up standard library functions
 
 0.0.12 - Add missing constants for Electric Imp API
+
+0.0.13 - Remove unused functions
